@@ -5,9 +5,9 @@ if(VCPKG_CMAKE_SYSTEM_NAME STREQUAL "WindowsStore")
 endif()
 
 vcpkg_download_distfile(ARCHIVE
-    URLS "https://ftp.postgresql.org/pub/source/v9.6.3/postgresql-9.6.3.tar.bz2"
-    FILENAME "postgresql-9.6.3.tar.bz2"
-    SHA512 97141972e154e6b0e756ee6a4e20f26e82022a9fd4c56305314a3a5567a79ece638e4ac3d513b46138737ae6bd27a098f30013a94767db151181aac9c01290a1
+    URLS "https://ftp.postgresql.org/pub/source/v9.6.15/postgresql-9.6.15.tar.bz2"
+    FILENAME "postgresql-9.6.15.tar.bz2"
+    SHA512 cc35a059bf59ea3487c17a8432b791ca2a19afaa24b07403a8d33904b3a97ebe601e3036ca8ec766c54cb87a7def7d4618a425a4446e6832391185d7c71117db
 )
 
 vcpkg_extract_source_archive_ex(
