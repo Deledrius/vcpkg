@@ -58,6 +58,10 @@ Feature: nvcodec
 Build-Depends: ffnvcodec, cuda
 Description: Hardware accelerated codecs
 
+Feature: fdk-aac
+Build-Depends: fdk-aac, ffmpeg[nonfree]
+Description: AAC support in ffmpeg
+
 Feature: avisynthplus
 Build-Depends: avisynthplus, ffmpeg[gpl]
 Description: avisynthplus support in ffmpeg

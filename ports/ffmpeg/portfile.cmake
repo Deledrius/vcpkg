@@ -127,6 +127,12 @@ else()
     set(OPTIONS "${OPTIONS} --disable-bzlib")
 endif()
 
+if("fdk-aac" IN_LIST FEATURES)
+    set(OPTIONS "${OPTIONS} --enable-libfdk-aac")
+else()
+    set(OPTIONS "${OPTIONS} --disable-libfdk-aac")
+endif()
+
 if("avresample" IN_LIST FEATURES)
     set(OPTIONS "${OPTIONS} --enable-avresample")
 endif()
